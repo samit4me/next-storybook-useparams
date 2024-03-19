@@ -1,3 +1,12 @@
+Small NEXTjs + Storybook demo to show that `useParams()` from next returns `null` in Storybook 8. This was fine in Storybook 7.
+
+To see the issue:
+- `npm install`
+- `npm run storybook`
+- Navigate to Example > Button > Primary *(you'll see an error - it should log null to the console)*
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
